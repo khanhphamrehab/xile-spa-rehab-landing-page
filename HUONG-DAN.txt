@@ -1,0 +1,20 @@
+RBK SPORT THERAPY — BẢN ĐÃ DUYỆT, DÀNH CHO GITHUB PAGES
+
+1. Giải nén file ZIP trên máy tính.
+2. Tạo repository cho trang Rehab hoặc mở repository Rehab có sẵn.
+3. Upload toàn bộ nội dung đã giải nén lên nhánh main. index.html phải ở gốc repository, không nằm trong thư mục con. Không upload nguyên file ZIP.
+4. Vào Settings → Pages → Build and deployment → Source: Deploy from a branch.
+5. Chọn branch main và thư mục /(root), bấm Save.
+6. Chờ GitHub Pages hoàn tất, mở đường dẫn hiển thị trong Settings → Pages.
+7. Nếu repository đang có workflow Next.js deploy cũ, tắt workflow đó trong Actions để tránh ghi đè bản HTML này.
+
+index.html đã chứa giao diện, font, ảnh và JavaScript; không cần Node.js, npm, build hoặc thư mục _next. Có thể mở file trực tiếp trên máy để xem thử.
+File .nojekyll tắt xử lý Jekyll. Thư mục font-licenses giữ thông tin giấy phép font.
+
+Đây là bản Rehab đã duyệt, giữ giá: Cổ vai gáy 350.000đ / 60 phút; Half Body 450.000đ / 80 phút; Full Body 750.000đ / 120 phút.
+Hotline: 0908 899 250. Địa chỉ: 67 Hưng Phú, Quận 8, TP.HCM.
+
+Form hiện kiểm tra thông tin và soạn tin nhắn để khách sao chép gửi Facebook, chưa tự gửi yêu cầu hoặc xác nhận lịch. Nếu mở file trực tiếp và không sao chép tự động được, chọn nội dung trong ô rồi sao chép thủ công.
+API tùy chọn: lập trình viên có thể điền HTTPS endpoint vào data-booking-endpoint của form; API cần kiểm tra dữ liệu, CORS đúng domain và chống spam. Không đặt khóa bí mật vào HTML.
+
+Tên miền riêng: thêm Custom domain trong Settings → Pages, trỏ DNS theo hướng dẫn GitHub và bật HTTPS khi sẵn sàng. Bản này không cố định đường dẫn tài nguyên theo tên repository.
